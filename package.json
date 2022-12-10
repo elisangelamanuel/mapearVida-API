@@ -1,0 +1,47 @@
+{
+  "name": "mapearvida-api",
+  "version": "1.0.0",
+  "description": "Projeto de conclusão do Bootcamp de JavaScript Back End da @reprograma. Trata-se de uma REST API que permite mapear pontos de segurança alimentar distribuídos no município. Pois, mapear é um ato político e com o apoio visual e interativo é possível unir esforços em prol do desenvolvimento humano e sustentável",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js",
+    "swagger-autogen": "node swagger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elisangelamanuel/mapearVida-API.git"
+  },
+  "keywords": [
+    "Rest-API",
+    "Node.js",
+    "Express",
+    "Mongoose",
+    "Bcrypt",
+    "Jest",
+    "Swagger"
+  ],
+  "author": "Elisângela Manuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elisangelamanuel/mapearVida-API/issues"
+  },
+  "homepage": "https://github.com/elisangelamanuel/mapearVida-API#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.18.2",
+    "jest": "^29.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.8.0",
+    "swagger-autogen": "^2.22.0",
+    "swagger-ui-express": "^4.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
