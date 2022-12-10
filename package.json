@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "test",
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "swagger-autogen": "node swagger.js"
   },
   "repository": {
