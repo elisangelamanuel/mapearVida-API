@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "description": "Projeto de conclusão do Bootcamp de JavaScript Back End da @reprograma. Trata-se de uma REST API que permite mapear pontos de segurança alimentar distribuídos no município. Pois, mapear é um ato político e com o apoio visual e interativo é possível unir esforços em prol do desenvolvimento humano e sustentável",
   "main": "server.js",
-  "directories": {
-    "test": "test"
-  },
+
   "scripts": {
-    "test": "test",
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "swagger-autogen": "node swagger.js"
   },
   "repository": {
